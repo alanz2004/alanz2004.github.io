@@ -510,6 +510,9 @@ p{
     .container .skills .about-skill {
         width: 90%;
     }
+    .container .skills .about-skill img {
+        height: 350px;
+    }
 
     .container .links a{
 
