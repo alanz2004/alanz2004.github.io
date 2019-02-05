@@ -532,17 +532,15 @@ p{
         font-size: 1.5em;
     }
     #contact {
-        height: 80vh;
+        height: 100vh;
     }
     #contact h1 {
-        font-size: 84px;
+        font-size: 64px;
     }
     #contact h2 {
-        font-size: 56px;
+        font-size: 42px;
     }
-    .container form {
-        height: 45vh;
-    }
+   
     .container form button {
         width: 50%;
         height: 60px;
@@ -555,5 +553,7 @@ p{
         width: 60%;
         height: 180px;
     }
-
+    .container .links {
+        height: 20vh;
+    }
 }
