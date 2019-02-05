@@ -501,12 +501,11 @@ p{
     }
 
     .container .row .part {
-
-        width: 10%;
+        width: 90%;
 
     }
     .container .skills .about-skill {
-        width: 70%;
+        width: 50%;
        
     }
     .container .skills .about-skill p{
