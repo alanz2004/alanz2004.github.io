@@ -531,8 +531,11 @@ p{
     .container .row .part .text p {
         font-size: 1.5em;
     }
-    .container form {
+    #contact {
         height: 80vh;
+    }
+    .container form {
+        height: 70vh;
     }
     .container form button {
         width: 70%;
