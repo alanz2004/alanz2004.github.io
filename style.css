@@ -505,11 +505,11 @@ p{
 
     }
     .container .skills .about-skill {
-        width: 90%;
+        width: 50%;
        
     }
     .container .skills .about-skill p{
-        font-size: 5em;
+        font-size: 2em;
     }
 
     .container .links a{
