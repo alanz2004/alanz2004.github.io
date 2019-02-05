@@ -504,12 +504,10 @@ p{
 
         width: 90%;
 
-        margin-top: 2%;
-
     }
     .container .skills .about-skill {
         width: 90%;
-        height: 500px;
+        height: 400px;
     }
     .container .skills .about-skill img {
         height: 400px;
