@@ -500,6 +500,7 @@ p{
 
     }
 
+
     .container .row .part {
         width: 90%;
 
@@ -529,6 +530,9 @@ p{
     }
     .container .row .part .text p {
         font-size: 1.5em;
+    }
+    .container form {
+        height: 80vh;
     }
     .container form button {
         width: 70%;
