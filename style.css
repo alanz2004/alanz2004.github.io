@@ -535,19 +535,19 @@ p{
         height: 50vh;
     }
     .container form {
-        height: 40vh;
+        height: 45vh;
     }
     .container form button {
         width: 70%;
-        height: 60px;
+        height: 5vh;
     }
     .container form input {
         width: 90%;
-        height: 100px;
+        height: 10vh;
     }
     .container form textarea {
         width: 90%;
-        height: 160px;
+        height: 20vh;
     }
 
 }
