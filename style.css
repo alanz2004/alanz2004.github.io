@@ -532,21 +532,21 @@ p{
         font-size: 1.5em;
     }
     #contact {
-        height: 50vh;
+        height: 60vh;
     }
     .container form {
         height: 45vh;
     }
     .container form button {
-        width: 70%;
+        width: 50%;
         height: 5vh;
     }
     .container form input {
-        width: 90%;
+        width: 60%;
         height: 10vh;
     }
     .container form textarea {
-        width: 90%;
+        width: 60%;
         height: 20vh;
     }
 
