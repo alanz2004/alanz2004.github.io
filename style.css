@@ -532,10 +532,10 @@ p{
         font-size: 1.5em;
     }
     #contact {
-        height: 80vh;
+        height: 50vh;
     }
     .container form {
-        height: 70vh;
+        height: 40vh;
     }
     .container form button {
         width: 70%;
