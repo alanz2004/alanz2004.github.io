@@ -539,15 +539,15 @@ p{
     }
     .container form button {
         width: 50%;
-        height: 5vh;
+        height: 20px;
     }
     .container form input {
         width: 60%;
-        height: 10vh;
+        height: 40px;
     }
     .container form textarea {
         width: 60%;
-        height: 20vh;
+        height: 60px;
     }
 
 }
