@@ -507,10 +507,10 @@ p{
     }
     .container .skills .about-skill {
         width: 90%;
-        height: 30vh;
+       
     }
     .container .skills .about-skill img {
-        height: 20vh;
+       
     }
     .container .skills .about-skill p{
         font-size: 2.5em;
