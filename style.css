@@ -509,6 +509,7 @@ p{
     }
     .container .skills .about-skill {
         width: 90%;
+        height: 1500px;
     }
     .container .skills .about-skill img {
         height: 1350px;
