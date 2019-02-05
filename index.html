@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Alan Starobinski Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <meta charset="utf-8"/>
+     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|ZCOOL+KuaiLe" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Fahkwang" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+                <div class="fullscreen-video-wrap">
+                        <video src="background-video.mp4" autoplay="true" loop="true">
+                </div>
+                <div class="content">
+                        <div class="about">
+                                <p>Hi everyone, I'm Alan Starobinski.<br/> I'm a full stack developer,But a good one.</p>   
+                            </div>
+                            <div class="nav" id="nav1">
+                                <a href="#about">About</a>
+                                <a href="#projects">Projects</a>
+                                <a href="#contact">Contact</a>
+                            </div>
+                </div>
+        </div>
+        <div class="container" id="about">
+            <h1>Why to choose me?</h1>
+            <div class="skills">
+                   
+                <div class="about-skill">
+                    <img src="responsive.png"/>
+                    <h1>Responsive</h1>
+                    <p>In this days every one using phones.My websites will look good on big screens and smalls screens.</p>
+                </div>
+                   
+
+             <div class="about-skill">
+                <img src="fast.png"/>
+                <h1>Fast</h1>
+                <p>A beafiful website is good but its also needs to load fast. My websites loads really fast.</p>   
+         
+             </div>
+                
+                    <div class="about-skill">
+                        <img src="qunike.png"/>
+                        <h1>Unique</h1>
+                         <p>Every website that i create will be unique.Stay unique and be different is the most important thing.</p>
+                    </div>
+              
+                    
+            <div class="me">
+       
+            </div>
+        </div>
+         <div class="container" id="projects">
+                <h1>My Projects</h1>
+             <div class="row">
+                 <div class="part" id="part1">
+                        <img src="react-calc.png" id="img1"/>
+                        <div class="text" id="txt1">
+                            <p>A calculator website using the React FrameWork. </p>
+                            <a href="https://github.com/alanz2004/ReactCalculator-" target="_blank"><img src="code-icon.png"/></a>
+                            <div class="project-skills">
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JS</p>
+                                <p>React</p>
+                            </div>
+                        </div>
+                 </div>
+                 <div class="part">
+                        <img src="react-todolist.png" id="img2"/>
+                    <div class="text" id="txt2">
+                    <p>A todo list website using the react FrameWork</p>
+                    <a href="https://github.com/alanz2004/React-Todo-List" target="_blank"><img src="code-icon.png"/></a>
+                    <div class="project-skills">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JS</p>
+                        <p>React</p>
+                    </div>
+                    </div>
+                 </div>
+             </div>
+
+            <div class="row">
+                    <div class="part">
+                            <img src="tic-tac-toe.png" id="img3"/>
+                            <div class="text" id="txt3">
+                                <p>A tic tac toe game using only vanilla js</p>
+                                <a href="https://github.com/alanz2004/Tic-Tac-Toe" target="_blank"><img src="code-icon.png"/></a>
+                                <div class="project-skills">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="part">
+                                <img src="weather_api.png" id="img4"/>
+                                <div class="text" id="txt4">
+                                    <p>A weather website that gives you the weather in the city</p>
+                                    <a href="https://github.com/alanz2004/Weather-By-City" target="_blank"><img src="code-icon.png"/></a>
+                                    <div class="project-skills">
+                                        <p>HTML</p>
+                                        <p>CSS</p>
+                                        <p>JS</p>
+                                    </div>
+                                </div>
+                            </div>
+             </div>
+         </div>
+         <div class="container" id="contact">
+             <h1>Contact</h1>
+             <h2>Lets build your website together!</h2>
+             <form action="" id="form">
+                    <input type="text" placeholder="Name" required="required" id="name">
+                 <input type="email" placeholder="Email" required="required" id="email">
+                 <textarea placeholder="Message" required="required" id="msg"></textarea>
+                 <button id="btn">SUBMIT</button>
+             </form>
+              <div class="links">
+                <a href="https://www.facebook.com/profile.php?id=100002059946327" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/alan-starobinski-099396177/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/alanz2004" class="fa fa-github"></a>
+              </div>
+         </div>
+         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.js"></script>
+         <script>
+             var img = document.getElementById('img1');
+             var txt = document.getElementById('txt1');
+             var img2 = document.getElementById('img2');
+             var txt2 = document.getElementById('txt2');
+             var img3 = document.getElementById('img3');
+             var txt3 = document.getElementById('txt3');
+             var img4 = document.getElementById('img4');
+             var txt4 = document.getElementById('txt4');
+             var white = document.getElementById('part1');
+             var nameInput = document.getElementById('name');
+             var emailInput = document.getElementById('email');
+             var msgInput = document.getElementById('msg');
+             var form = document.getElementById('form');
+             if(form){
+                form.addEventListener('submit',function(event){
+                      event.preventDefault();
+                      console.log(nameInput.value, emailInput.value, msgInput.value);
+                      nameInput.value = '';
+                      emailInput.value = '';
+                      msgInput.value = '';
+                });
+             }
+            
+             $(document).ready(function(){
+                 $('#nav1').localScroll({duration:800});
+             })
+             console.log(white);
+             
+             img.onmouseover = function() {
+                 txt.style.display = 'flex';
+             }
+             img.onmouseout = function() {
+                 txt.style.display = 'none';
+                 console.log('your mouseout');
+             }
+             txt.onmouseover = function() {
+                txt.style.display = 'flex';
+             }
+             txt.onmouseout = function() {
+                txt.style.display = 'none';
+                 console.log('your mouseout');
+             }
+
+
+             img2.onmouseover = function() {
+                 txt2.style.display = 'flex';
+             }
+             img2.onmouseout = function() {
+                 txt2.style.display = 'none';
+                 console.log('your mouseout');
+             }
+             txt2.onmouseover = function() {
+                txt2.style.display = 'flex';
+             }
+             txt2.onmouseout = function() {
+                txt2.style.display = 'none';
+                 console.log('your mouseout');
+             }
+
+             img3.onmouseover = function() {
+                 txt3.style.display = 'flex';
+             }
+             img3.onmouseout = function() {
+                 txt3.style.display = 'none';
+                 console.log('your mouseout');
+             }
+             txt3.onmouseover = function() {
+                txt3.style.display = 'flex';
+             }
+             txt3.onmouseout = function() {
+                txt3.style.display = 'none';
+                 console.log('your mouseout');
+             }
+
+
+             img4.onmouseover = function() {
+                 txt4.style.display = 'flex';
+             }
+             img4.onmouseout = function() {
+                 txt4.style.display = 'none';
+                 console.log('your mouseout');
+             }
+             txt4.onmouseover = function() {
+                txt4.style.display = 'flex';
+             }
+             txt4.onmouseout = function() {
+                txt4.style.display = 'none';
+                 console.log('your mouseout');
+             }
+         </script>
+    </body>
+</html>

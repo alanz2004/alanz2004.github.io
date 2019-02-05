@@ -1,0 +1,542 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'ZCOOL KuaiLe', cursive;
+
+    overflow-x:hidden;
+
+}
+
+h1 {
+
+    color: #050401;
+
+    font-size: 3.5em;
+
+}
+
+p{
+
+    color: #ffffff;
+
+    font-size: 3.5em;
+
+    text-align: center;
+
+}
+
+.fullscreen-video-wrap{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100vh;
+
+    overflow:hidden;
+
+  }
+
+  .fullscreen-video-wrap video{
+
+    min-height:100%;
+
+    min-width:100%;
+
+  }
+
+  .header .content {
+
+      z-index: 2;
+
+  }
+
+.header {
+
+    width: 100%;
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.header .about {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+
+}
+
+.header .nav{
+
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+.header .nav a {
+
+    width: 140px;
+
+    height: 50px;
+
+    margin: 5px;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    text-decoration: none;
+
+    color:#ffffff;
+
+}
+
+.header .nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+.container {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background: #ffffff;
+
+    margin-top: 5%;
+
+}
+
+.container .skills {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    width: 100%;
+
+    font-family: 'Fahkwang', sans-serif;
+
+}
+
+.container .skills .about-skill {
+
+    margin: 5%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 25%;
+
+}
+
+.container .skills .about-skill img {
+
+    height: 200px;
+
+    width: 80%;
+
+    margin-bottom: 3%;
+
+}
+
+.container .skills .about-skill p {
+
+    color: #282828;
+
+    font-size: 1.5em;
+
+}
+
+.container .me{
+
+    flex-direction: row;
+
+}
+
+.container .row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 0;
+
+}
+
+.container .row .part {
+
+    width: 30%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    margin: 0;
+
+}
+
+.container .row .part .text{
+
+    position: absolute;  
+
+    left: 50%;                        /* horizontal alignment */
+
+    top: 50%;                         /* vertical alignment */
+
+    transform: translate(-50%, -50%); /* precise centering; see link below */
+
+    display: none;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: #ffffff;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border: none;
+
+  transition: all 2s ease-in;
+
+  animation-duration: 5.25s;
+
+  animation-name: createBox;
+
+ 
+
+}
+
+@keyframes createBox {
+
+  0% {
+
+     background-color: none;
+
+  }
+
+  100% {
+
+     background-color: #ffffff;
+
+  }
+
+}
+
+.container .row .part .text .project-skills {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+}
+
+.container .row .part .text .project-skills p{
+
+   margin: 5%;
+
+   color: #fc5130;
+
+   
+
+}
+
+.container .row .part .text img {
+
+    width: 50px;
+
+    height: 50px;
+
+    border: none;
+
+}
+
+.container .row .part .text p {
+
+    font-size: 2em;
+
+    color: #1be7ff;
+
+    font-family: 'Fahkwang', sans-serif;
+
+}
+
+.container .row .part img {
+
+    width: 100%;
+
+}
+
+.container h1{
+
+    text-align: center;
+
+    margin-bottom: 2%;
+
+}
+
+.container h2 {
+
+    text-align: center;
+
+    margin-bottom: 2%;
+
+    color: #1be7ff;
+
+}
+
+.container form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.container form input{
+
+    height: 70px;
+
+    width: 40%;
+
+    margin: 5px;
+
+    border: 3px solid #1be7ff;
+
+    font-size: 2em;
+
+}
+
+.container form textarea {
+
+    height: 140px;
+
+    width: 40%;
+
+    margin: 5px;
+
+    border: 3px solid #1be7ff;
+
+    font-size: 2em;
+
+}
+
+.container form button {
+
+    width: 20%;
+
+    height: 40px;
+
+    border: 2px solid #1be7ff;
+
+    background-color: #ffffff;
+
+    transition: all 2s;
+
+    color: #050401;
+
+    margin-bottom: 2%;
+
+    /*            top left top right botoom right bottom left*/
+
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.container form button:hover{
+
+    border-color: #ffffff;
+
+    background-color: #fc5130;
+
+    color: #1be7ff;
+
+}
+
+#contact {
+
+    background-color: #282828;
+
+}
+
+#contact h1{
+
+    color: #fc5130;
+
+    margin-top: 7%;
+
+}
+
+.container .links {
+
+    background-color: #050401;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.container .links a {
+
+    width: 10%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 4em;
+
+    margin: 2%;
+
+    color: #1be7ff;
+
+    text-decoration: none;
+
+    transition: all 2s;
+
+}
+
+.container .links a:hover {
+
+    color: #fc5130;
+
+}
+
+
+
+@media screen and (max-width: 1800px){
+
+    .container .row{
+
+        flex-direction: column;
+
+    }
+
+    .container .row .part {
+
+        width: 90%;
+
+        margin-top: 2%;
+
+    }
+    .container .skills .about-skill {
+        width: 90%;
+    }
+
+    .container .links a{
+
+        width: 25%;
+
+    }
+
+    .container .skills {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+    .container .row .part .text p {
+        font-size: 1.5em;
+    }
+    .container form button {
+        width: 70%;
+    }
+    .container form input {
+        width: 90%;
+    }
+    .container form textarea {
+        width: 90%;
+    }
+
+}
